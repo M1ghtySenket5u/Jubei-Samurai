@@ -1,0 +1,20 @@
+[Interface]
+# Jubei-Samurai client configuration template
+PrivateKey = <CLIENT_PRIVATE_KEY>
+Address = <VPN_CLIENT_IP>        # e.g. 10.8.0.2/32
+DNS = 1.1.1.1
+
+[Peer]
+# Jubei-Samurai server
+PublicKey = <SERVER_PUBLIC_KEY>
+Endpoint = <SERVER_PUBLIC_IP_OR_DNS>:<SERVER_PORT>   # e.g. vpn.example.com:51820
+
+# Route all IPv4 traffic via VPN:
+AllowedIPs = 0.0.0.0/0
+
+# If you prefer split tunneling, replace AllowedIPs with a smaller set, e.g.:
+# AllowedIPs = 10.0.0.0/8, 192.168.0.0/16
+
+# Optional: keepalive to help with NAT traversal (especially on mobile)
+PersistentKeepalive = 25
+

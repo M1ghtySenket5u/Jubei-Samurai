@@ -1,0 +1,18 @@
+[Interface]
+# Jubei-Samurai VPN server interface
+PrivateKey = {{SERVER_PRIVATE_KEY}}
+Address = {{SERVER_ADDRESS}}
+ListenPort = {{SERVER_PORT}}
+
+# Optional: DNS server to hand out to clients (uncomment and adjust if desired)
+# DNS = 1.1.1.1
+
+# SaveConfig = true   # If enabled, WireGuard may modify this file on changes
+
+# Add [Peer] sections below for each client, for example:
+#
+# [Peer]
+# # Client name / device
+# PublicKey = <CLIENT_PUBLIC_KEY>
+# AllowedIPs = 10.8.0.2/32
+
