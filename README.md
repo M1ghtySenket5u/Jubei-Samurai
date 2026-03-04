@@ -215,9 +215,6 @@ While connected:
 - This can allow access to **region-specific content**, but:
   - Some services actively **block VPN IPs**.
   - Many services have **terms of use** about location and licensing.
-- Always:
-  - Respect **local laws and regulations**.
-  - Respect **service terms of use**.
 
 ---
 
