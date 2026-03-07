@@ -1,7 +1,7 @@
 Jubei-Samurai VPN
 ==================
 
-Author: Hector Flores (Lamar University)  
+Author: MightySenket5u 
 Project name: **Jubei-Samurai**
 
 > A self-hosted VPN based on WireGuard that encrypts your traffic and can be used from Windows, Linux Mint, and Android.
